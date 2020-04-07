@@ -38,18 +38,19 @@ bacod = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
 #capek kali aku buatnya, kimbeklah!...
 gblk = ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com','http://yahoo.com']
 print B+G+""
-print "|————  |  |  /   |——\  |"
-print "|      |  | /    |   \ |"
-print "|————  |  |/\    |     |"
-print "|      |  |  \   |     |"
-print "|      |  |   \  |     |"
+print "FIKRI"
+print "FIKRI"
+print "FIKRI"
+print "FIKRI"
+print "FIKRI"
+print "FIKRI"
 print B+R+""
-print "     /\       ——————  |        |"
-print "    /  \      |    |  |        |"
-print "   /    \     |    |  |   /\   |"
-print "  /————— \    |    |  |  /  \  |"
-print " /        \   |    |  | /    \ |"
-print "/          \  |    |  |/      \|"
+print "ANWAR"
+print "ANWAR"
+print "ANWAR"
+print "ANWAR"
+print "ANWAR"
+print "ANWAR"
 time.sleep(2)
 print ''
 print B+BL+'#-----------------------------------------#'
