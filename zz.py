@@ -37,7 +37,8 @@ bacod = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
 		   'Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Kubuntu)',
 		   'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; ZoomSpider.net bot; .NET CLR 1.1.4322)',
 		   'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; QihooBot 1.0 qihoobot@qihoo.net)',
-		   'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']#Hargai Pembuat!.. Coding Ga Gampang!..
+		   'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']
+#Hargai Pembuat!.. Coding Ga Gampang!..
 gblk = ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com','http://yahoo.com']
 print B+G+""
 print " _     _           __"
@@ -74,7 +75,7 @@ def Autoclicker(proxy1):
     try:
 	proxy = proxy1.split(":")
         print B+BL+"#-----------------------------------------#\n"+B+W+'[-]',proxy1, ""+B+P+"=> Process"+N
-        time.sleep(2)
+        time.sleep(1)
 	proxy_set = urllib2.ProxyHandler({"http" : "%s:%d" % (proxy[0], int(proxy[1]))})
 	opener = urllib2.build_opener(proxy_set, urllib2.HTTPHandler)
 	opener.addheaders = [('User-agent', random.choice(bacod)),
@@ -89,7 +90,7 @@ def Autoclicker(proxy1):
            print B+R+"[!] Proxy / Connection Failed\n"+B+BL+"#-----------------------------------------#\n"+N
     except:
            print B+R+"[!] Proxy Error\n"+B+BL+"#-----------------------------------------#\n"+N
-           time.sleep(5)
+           time.sleep(1)
            pass
 
 def loadproxy():
@@ -106,7 +107,8 @@ def loadproxy():
     except IOError:
 	print B+W+"\n[-] Error : Proxy List Tidak Ditemukan / Belum Dibuat\n"+N
 	sys.exit(1)
-def main():
+
+def main():
    print """
 """+N
    loadproxy()
